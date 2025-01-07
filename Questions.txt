@@ -1,0 +1,62 @@
+Beginner Tasks
+
+    1. Hello, World!
+        Write a program to print "Hello, World!" to the console.
+        Modify it to accept a user input and print "Hello, [name]!".
+
+    2. Basic Arithmetic Calculator
+        Create a program that takes two numbers from the user and performs basic operations (addition, subtraction, multiplication, division).
+
+    3. FizzBuzz
+        Write a program that prints numbers from 1 to 100.
+        For multiples of 3, print "Fizz" instead of the number, and for multiples of 5, print "Buzz". For numbers divisible by both, print "FizzBuzz".
+
+    4. Temperature Converter
+        Build a program to convert temperatures between Celsius and Fahrenheit.
+
+    5. Read and Write Files
+        Write a program that creates a file, writes some text to it, reads the file, and prints the content.
+
+Intermediate Tasks
+
+    1. Prime Number Checker
+        Write a function to check if a number is prime or not.
+
+    2. Simple CLI To-Do List
+        Create a command-line tool that allows the user to add, remove, and list tasks.
+
+    3. HTTP Server
+        Build a simple HTTP server that responds with "Hello, World!" on the root endpoint.
+
+    4. Goroutines and Channels
+        Write a program that spawns multiple goroutines to perform tasks like printing numbers, calculating sums, etc., and use channels to synchronize their results.
+
+    5. JSON Handling
+        Parse a JSON file containing user data (name, age, email, etc.) and print it to the console.
+        Modify the data and save it back to a JSON file.
+
+Advanced Tasks
+
+    1. Build a REST API
+        Create a REST API to manage a simple resource like "books" or "users".
+        Implement basic CRUD (Create, Read, Update, Delete) operations.
+
+    2. Concurrency with Worker Pool
+        Build a worker pool to process a list of tasks concurrently.
+
+    3. Command Line Flags
+        Build a program that accepts command-line flags (e.g., --name, --age) and prints the corresponding values.
+
+    4. Web Scraper
+        Write a program that fetches a webpage and extracts specific information (e.g., all the links on the page).
+
+    5. Build a Simple TCP Chat Server
+        Create a TCP server that allows multiple clients to connect and send messages to each other.
+
+Bonus Projects
+
+    URL Shortener: Build a tool to shorten URLs and store them in a simple database.
+    Markdown Parser: Write a program that converts Markdown text to HTML.
+    CLI Calculator: Expand your calculator to work via command-line arguments, like calc 5 + 10.
+    Image Resizer: Resize an image using Go's image processing libraries.
+    SQLite Integration: Build a Go program that interacts with a SQLite database for storing data.
