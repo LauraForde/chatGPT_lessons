@@ -1,8 +1,8 @@
-package main
+package beginner_tasks
 
 import "fmt"
 
-func main(){
+func B4() {
 	// Task 4 convert celsius to fahrenheit
 
 	var cel float64

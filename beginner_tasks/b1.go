@@ -1,8 +1,8 @@
-package main
+package beginner_tasks
 
 import "fmt"
 
-func main(){
+func B1() {
 	// Task 1
 	//fmt.Println("Hello, World!")
 

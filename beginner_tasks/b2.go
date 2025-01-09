@@ -1,15 +1,15 @@
-package main
+package beginner_tasks
 
 import "fmt"
 
-func main(){
+func B2() {
 	// Take in two numbers
 	var first int
 	var second int
-	
+
 	fmt.Println("Enter your two numbers: ")
 	fmt.Scanln(&first, &second)
-	
+
 	// Addition
 	add := first + second
 	fmt.Println("Addition: ", first, " + ", second, " = ", add)
