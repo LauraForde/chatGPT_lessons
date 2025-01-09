@@ -11,6 +11,7 @@ import (
 var content = []string{
 	"Hello World.",
 	"Writing To File.",
+	"This is for question 5 of the beginners subset of questions I asked ChatGPT for to aid in my learning GO.",
 }
 
 func B5() {
@@ -43,9 +44,9 @@ func B5() {
 	}
 
 	readFile, err := io.ReadAll(fromFile)
-	/*if err != nil{
+	if err != nil {
 		fmt.Println(err)
-	}*/
+	}
 
 	fmt.Print("Read from file: " + string(readFile))
 
